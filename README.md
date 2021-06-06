@@ -1,173 +1,14 @@
-﻿
-![gc logo.jpg](Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.001.jpeg)
+
+
 
 
 
 **Report of Semester Project**
 
 
-**Subject:**            	Visual Programming
 
-**Project Topic:**        Point of Sale  System
-
-
-**Submitted To:**
-
-Mam Asma Kanwal
-
-
-**Submitted By:**
-
-**Name:**		Ayub Ahmad
-
-**Roll Number:**	115-BSCS-2018
-
-**Section:**		A
-
-**Semester:**		4th
-
-**Department of Computer Science**
-
-` `**Government College University, Lahore**
 
 # **Point Of Sale System**
-` `TOC \o "1-3" \h \z \u [1.	Introduction	 PAGEREF _Toc46153454 \h 4](#_Toc46153454)
-
-[1.1.	Background	 PAGEREF _Toc46153455 \h 4](#_Toc46153455)
-
-[1.2.	Problem Statement	 PAGEREF _Toc46153456 \h 4](#_Toc46153456)
-
-[1.3.	Hypothesis	 PAGEREF _Toc46153457 \h 4](#_Toc46153457)
-
-[1.4.	Features	 PAGEREF _Toc46153458 \h 4](#_Toc46153458)
-
-[1.4.1.	Inventory Management	 PAGEREF _Toc46153459 \h 4](#_Toc46153459)
-
-[1.4.2.	Manage Sales	 PAGEREF _Toc46153460 \h 4](#_Toc46153460)
-
-[1.4.3.	Security	 PAGEREF _Toc46153461 \h 4](#_Toc46153461)
-
-[2.	Development Tools	 PAGEREF _Toc46153462 \h 5](#_Toc46153462)
-
-[3.	GUI Explanation	 PAGEREF _Toc46153463 \h 5](#_Toc46153463)
-
-[3.1.	Loading Screen	 PAGEREF _Toc46153464 \h 5](#_Toc46153464)
-
-[3.2.	Login Page	 PAGEREF _Toc46153465 \h 5](#_Toc46153465)
-
-[3.3.	Home Page	 PAGEREF _Toc46153466 \h 5](#_Toc46153466)
-
-[3.4.	Categories Screen	 PAGEREF _Toc46153467 \h 5](#_Toc46153467)
-
-[3.4.1.	Add New Category	 PAGEREF _Toc46153468 \h 5](#_Toc46153468)
-
-[3.4.2.	Edit Category	 PAGEREF _Toc46153469 \h 5](#_Toc46153469)
-
-[3.5.	Products Screen	 PAGEREF _Toc46153470 \h 6](#_Toc46153470)
-
-[3.5.1.	Add New Product	 PAGEREF _Toc46153471 \h 6](#_Toc46153471)
-
-[3.6.	Update Stock / Purchasing	 PAGEREF _Toc46153472 \h 6](#_Toc46153472)
-
-[3.7.	Sale Point	 PAGEREF _Toc46153473 \h 6](#_Toc46153473)
-
-[4.	Snapshots of GUI	 PAGEREF _Toc46153474 \h 7](#_Toc46153474)
-
-[4.1.	Loading Screen	 PAGEREF _Toc46153475 \h 7](#_Toc46153475)
-
-[4.2.	Login Page	 PAGEREF _Toc46153476 \h 7](#_Toc46153476)
-
-[4.3.	User Home Page	 PAGEREF _Toc46153477 \h 8](#_Toc46153477)
-
-[4.4.	Categories List	 PAGEREF _Toc46153478 \h 8](#_Toc46153478)
-
-[4.5.	Add New Category	 PAGEREF _Toc46153479 \h 9](#_Toc46153479)
-
-[4.6.	Products List by Category	 PAGEREF _Toc46153480 \h 9](#_Toc46153480)
-
-[4.7.	Add New Product	 PAGEREF _Toc46153481 \h 9](#_Toc46153481)
-
-[4.8.	Update Stock / Purchase	 PAGEREF _Toc46153482 \h 10](#_Toc46153482)
-
-[4.9.	Sale Products	 PAGEREF _Toc46153483 \h 10](#_Toc46153483)
-
-[5.	Database Explanation	 PAGEREF _Toc46153484 \h 11](#_Toc46153484)
-
-[5.1.	Tables Explanation	 PAGEREF _Toc46153485 \h 11](#_Toc46153485)
-
-[5.1.1.	User	 PAGEREF _Toc46153486 \h 11](#_Toc46153486)
-
-[5.1.2.	Categories	 PAGEREF _Toc46153487 \h 11](#_Toc46153487)
-
-[5.1.3.	Products	 PAGEREF _Toc46153488 \h 11](#_Toc46153488)
-
-[5.1.4.	Purchase	 PAGEREF _Toc46153489 \h 11](#_Toc46153489)
-
-[5.1.5.	Order	 PAGEREF _Toc46153490 \h 12](#_Toc46153490)
-
-[5.1.6.	Order Detail	 PAGEREF _Toc46153491 \h 12](#_Toc46153491)
-
-[5.2.	Database Diagram	 PAGEREF _Toc46153492 \h 13](#_Toc46153492)
-
-[6.	Snapshots of Database	 PAGEREF _Toc46153493 \h 13](#_Toc46153493)
-
-[6.1.	User	 PAGEREF _Toc46153494 \h 13](#_Toc46153494)
-
-[6.2.	Categories	 PAGEREF _Toc46153495 \h 14](#_Toc46153495)
-
-[6.3.	Products	 PAGEREF _Toc46153496 \h 14](#_Toc46153496)
-
-[6.4.	Purchase	 PAGEREF _Toc46153497 \h 14](#_Toc46153497)
-
-[6.5.	Order	 PAGEREF _Toc46153498 \h 14](#_Toc46153498)
-
-[6.6.	Order Detail	 PAGEREF _Toc46153499 \h 15](#_Toc46153499)
-
-[7.	Repository Classes	 PAGEREF _Toc46153500 \h 15](#_Toc46153500)
-
-[7.1.	User Repository	 PAGEREF _Toc46153501 \h 15](#_Toc46153501)
-
-[7.1.1.	Authenticate	 PAGEREF _Toc46153502 \h 15](#_Toc46153502)
-
-[7.2.	Category Repository	 PAGEREF _Toc46153503 \h 15](#_Toc46153503)
-
-[7.2.1.	Add Category	 PAGEREF _Toc46153504 \h 15](#_Toc46153504)
-
-[7.2.2.	Get Id	 PAGEREF _Toc46153505 \h 15](#_Toc46153505)
-
-[7.2.3.	Get All Categories	 PAGEREF _Toc46153506 \h 15](#_Toc46153506)
-
-[7.2.4.	Delete Category	 PAGEREF _Toc46153507 \h 16](#_Toc46153507)
-
-[7.2.5.	Edit Category	 PAGEREF _Toc46153508 \h 16](#_Toc46153508)
-
-[7.3.	Product Repository	 PAGEREF _Toc46153509 \h 16](#_Toc46153509)
-
-[7.3.1.	Add Product	 PAGEREF _Toc46153510 \h 16](#_Toc46153510)
-
-[7.3.2.	Get Product by Category Id	 PAGEREF _Toc46153511 \h 16](#_Toc46153511)
-
-[7.3.3.	Get Product	 PAGEREF _Toc46153512 \h 16](#_Toc46153512)
-
-[7.3.4.	Delete Product	 PAGEREF _Toc46153513 \h 16](#_Toc46153513)
-
-[7.3.5.	Purchase	 PAGEREF _Toc46153514 \h 16](#_Toc46153514)
-
-[7.3.6.	Sale	 PAGEREF _Toc46153515 \h 17](#_Toc46153515)
-
-[7.3.7.	Get All Orders	 PAGEREF _Toc46153516 \h 17](#_Toc46153516)
-
-[8.	Model Classes	 PAGEREF _Toc46153517 \h 17](#_Toc46153517)
-
-[9.	Requirements for Project	 PAGEREF _Toc46153518 \h 17](#_Toc46153518)
-
-[9.1.	What to do before starting?	 PAGEREF _Toc46153519 \h 18](#_Toc46153519)
-
-[10.	Conclusion	 PAGEREF _Toc46153520 \h 18](#_Toc46153520)
-
-
-
-
 
 POINT OF SALE SYSTEM
 1. # **Introduction**
@@ -232,21 +73,21 @@ Here are the some snapshots of my project.
 1. ## **Loading Screen**
 ![](imagesForReadme/Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.002.png)
 1. ## **Login Page**
-![](Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.003.png)
+![](imagesForReadme/Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.003.png)
 1. ## **User Home Page**
-![](Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.004.png)
+![](imagesForReadme/Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.004.png)
 1. ## **Categories List**
-![](Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.005.png)
+![](imagesForReadme/Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.005.png)
 1. ## **Add New Category**
-![](Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.006.png)
+![](imagesForReadme/Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.006.png)
 1. ## **Products List by Category**
-![](Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.007.png)
+![](imagesForReadme/Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.007.png)
 1. ## **Add New Product**
-![](Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.008.png)
+![](imagesForReadme/Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.008.png)
 1. ## **Update Stock / Purchase**
-![](Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.009.png)
+![](imagesForReadme/Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.009.png)
 1. ## **Sale Products**
-![](Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.010.png)
+![](imagesForReadme/Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.010.png)
 
 1. # **Database Explanation**
 Explanation of database tables and database diagram is given below:
@@ -333,7 +174,7 @@ Snapshot of order detail table along with some data is given at 6.6.
 1. ## **Database Diagram**
 Here is the diagram of my database and diagram explanation.
 
-![](Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.011.png)
+![](imagesForReadme/Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.011.png)
 
 **Properties of Database Diagram**
 
@@ -346,20 +187,20 @@ Here is the diagram of my database and diagram explanation.
 1. # **Snapshots of Database**
 Here are the snapshots of my database tables along with data.
 1. ## **User**
-![](Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.012.png)
+![](imagesForReadme/Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.012.png)
 
 1. ## **Categories**
-![](Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.013.png)
+![](imagesForReadme/Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.013.png)
 1. ## **Products**
-![](Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.014.png)
+![](imagesForReadme/Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.014.png)
 
 1. ## **Purchase**
-![](Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.015.png)
+![](imagesForReadme/Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.015.png)
 
 1. ## **Order**
-![](Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.016.png)
+![](imagesForReadme/Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.016.png)
 1. ## **Order Detail**
-![](Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.017.png)
+![](imagesForReadme/Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.017.png)
 1. # **Repository Classes**
 I made repository classes for making connections of my source code with my database. There are total three repository classes in my project.
 1. ## **User Repository**
@@ -430,6 +271,6 @@ Frist you have to restore my database backup in your sql management studio. Step
 
 1. # **Conclusion**
 I tried my best to achieve all the goals that I have set before selecting my project topic and after that before starting my project. I focused on all the circumstances about a point of sale system. This project helped me a lot in enhancing my experience about c#, object oriented programming, graphical user interface and database. I hope you would like my point of sale system. 
-Page  **PAGE 2** of  **NUMPAGES  2**
+
 
 
