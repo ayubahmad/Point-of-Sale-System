@@ -230,7 +230,7 @@ Sale point is the main component of my project. In this portion we will make all
 1. # **Snapshots of GUI**
 Here are the some snapshots of my project.
 1. ## **Loading Screen**
-![](Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.002.png)
+![](imagesForReadme/Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.002.png)
 1. ## **Login Page**
 ![](Aspose.Words.64f08fd2-1317-498a-a5e0-96e484685957.003.png)
 1. ## **User Home Page**
